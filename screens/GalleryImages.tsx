@@ -13,7 +13,9 @@ import {
   Body,
   Icon,
   Button,
+  Right,
 } from "native-base";
+import { AntDesign } from '@expo/vector-icons'; 
 
 export default class GalleryImages extends Component {
   render() {
@@ -38,7 +40,7 @@ export default class GalleryImages extends Component {
                       note
                       style={{ fontFamily: "sketch-rockwell", fontSize: 30 }}
                     >
-                      {item.title}
+                      {item.title.split('-').[1]}
                     </Text>
                   </Body>
                 </Left>
@@ -62,15 +64,15 @@ export default class GalleryImages extends Component {
               </CardItem>
               <CardItem>
                 <Icon name="heart" style={{ color: "#ED4A6A" }} />
+                <AntDesign name="shoppingcart" size={24} color="black"  style={styles.shoppingcart}/>
                 <Text
                   style={{
                     elevation: 20,
                     fontFamily: "sketch-rockwell",
                     fontSize: 10,
                   }}
-                >
-                  {item.name}
-                </Text>
+                ></Text>
+                
               </CardItem>
             </Card>
           )}
@@ -136,8 +138,12 @@ export default class GalleryImages extends Component {
 const styles = StyleSheet.create({
   container: {
     margin: 0,
-    fontFamily: "sketch-rockwell",
     padding: 0,
+  },
+  shoppingcart:{
+    right: 10,
+    position:"absolute",
+    fontSize:30,
   },
   backgroundImage: {
     width: "100%",
@@ -148,12 +154,6 @@ const styles = StyleSheet.create({
   title: {
     padding: 10,
     color: "white",
-    fontSize: 26,
-    fontFamily: "sketch-rockwell",
-  },
-  text: {
-    fontSize: 30,
-    margin: 20,
     fontFamily: "sketch-rockwell",
   },
   separator: {

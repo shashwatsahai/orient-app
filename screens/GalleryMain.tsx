@@ -49,32 +49,32 @@ const ALTIS = [
 ];
 const ELITE = [
   {
-    title: "ALTIS-Aldrop",
+    title: "ELITE-Latch",
     subtitle: "Lorem ipsum dolor sit amet et nuncat mergitur",
     image: require("../assets/displayAssets/Elite/ELITE-Latch.jpg"),
   },
   {
-    title: "ALTIS-CabinetHandle",
+    title: "ELITE-DoorHandles",
     subtitle: "Lorem ipsum dolor sit amet",
     image: require("../assets/displayAssets/Elite/ELITE-DoorHandles.jpg"),
   },
   {
-    title: "ALTIS-CabinetHandle",
+    title: "ELITE-CabinetHandle",
     subtitle: "Lorem ipsum dolor sit amet et nuncat ",
     image: require("../assets/displayAssets/Elite/ELITE-CabinetHandle.jpg"),
   },
   {
-    title: "ALTIS-CabinetHandle",
+    title: "ELITE-Concealed",
     subtitle: "Lorem ipsum dolor sit amet et nuncat mergitur",
     image: require("../assets/displayAssets/Elite/ELITE-Concealed.jpg"),
   },
   {
-    title: "ALTIS-CabinetHandle",
+    title: "ELITE-Aldrop19mm",
     subtitle: "Lorem ipsum dolor sit amet",
     image: require("../assets/displayAssets/Elite/ELITE-Aldrop19mm.jpg"),
   },
   {
-    title: "ALTIS-CabinetHandle",
+    title: "ELITE-Aldrop16mm",
     subtitle: "Lorem ipsum dolor sit amet",
     image: require("../assets/displayAssets/Elite/ELITE-Aldrop16mm.jpg"),
   },
